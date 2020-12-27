@@ -1,0 +1,70 @@
+
+.copyright__info {
+  text-align: center;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+h2 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.todo__input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  height: 20px;
+  background: transparent;
+  color: #fff;
+}
+
+
+.todo__input::placeholder {
+  color: #e2e2e2;
+}
+
+.toggle__button {
+  padding: 16px;
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+  outline: none;
+  margin: 6px;
+  background: linear-gradient(
+    90deg,
+    rgb(77, 167, 4) 0%,
+    rgb(224, 38, 110) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.delete__button {
+  padding: 16px;
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+  outline: none;
+  margin: 6px;
+  background: linear-gradient(
+    90deg,
+    rgb(14, 65, 2) 0%,
+    rgb(18, 43, 51) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
