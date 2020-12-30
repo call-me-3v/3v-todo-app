@@ -2,6 +2,7 @@
   "name": "indecrease",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://call-me-3v.github.io/3v-todo-app",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
     "@material-ui/core": "^4.11.2",
@@ -10,13 +11,19 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "date-fns": "^2.16.1",
+    "fdweb": "^1.0.7",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-github-corner": "^2.5.0",
     "react-scripts": "4.0.1",
+    "save-dev": "0.0.1-security",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
